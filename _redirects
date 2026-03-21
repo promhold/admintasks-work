@@ -1,0 +1,19 @@
+# Redirects for admintasks.work
+# Cloudflare Pages and Netlify read this file automatically.
+# For GitHub Pages, configure these rules in your Cloudflare dashboard instead:
+# Cloudflare → Rules → Redirect Rules
+
+# Force www to non-www (canonical URL — prevents duplicate content in Google)
+https://www.admintasks.work/* https://admintasks.work/:splat 301
+
+# Force HTTP to HTTPS (belt-and-suspenders — Cloudflare also handles this)
+http://admintasks.work/* https://admintasks.work/:splat 301
+http://www.admintasks.work/* https://admintasks.work/:splat 301
+
+# Legacy individual page URLs redirect to the single-page app
+# (in case anyone bookmarked or linked the old separate HTML files)
+/overtime-calculator.html https://admintasks.work/ 301
+/hours-calculator.html https://admintasks.work/ 301
+/paystub-calculator.html https://admintasks.work/ 301
+/income-estimator.html https://admintasks.work/ 301
+/1099-tax-calculator.html https://admintasks.work/ 301
