@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <url>
+    <loc>https://admintasks.work/</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en-us" href="https://admintasks.work/"/>
+    <xhtml:link rel="alternate" hreflang="en-jm" href="https://admintasks.work/#jamaica"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://admintasks.work/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://admintasks.work/"/>
+    <image:image>
+      <image:loc>https://admintasks.work/og-image.png</image:loc>
+      <image:title>admintasks.work — Free Work and Tax Calculators for US and Jamaica</image:title>
+      <image:caption>Free overtime, paystub, hours, net pay, income, and 1099 tax calculators for US and Jamaican workers</image:caption>
+    </image:image>
+  </url>
+
+  <!-- US Calculators -->
+  <url>
+    <loc>https://admintasks.work/#us-overtime</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.95</priority>
+    <xhtml:link rel="alternate" hreflang="en-us" href="https://admintasks.work/#us-overtime"/>
+  </url>
+  <url>
+    <loc>https://admintasks.work/#us-hours</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.90</priority>
+    <xhtml:link rel="alternate" hreflang="en-us" href="https://admintasks.work/#us-hours"/>
+  </url>
+  <url>
+    <loc>https://admintasks.work/#us-paystub</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.95</priority>
+    <xhtml:link rel="alternate" hreflang="en-us" href="https://admintasks.work/#us-paystub"/>
+  </url>
+  <url>
+    <loc>https://admintasks.work/#us-netpay</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.92</priority>
+    <xhtml:link rel="alternate" hreflang="en-us" href="https://admintasks.work/#us-netpay"/>
+  </url>
+  <url>
+    <loc>https://admintasks.work/#us-pdf</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.90</priority>
+    <xhtml:link rel="alternate" hreflang="en-us" href="https://admintasks.work/#us-pdf"/>
+  </url>
+  <url>
+    <loc>https://admintasks.work/#us-income</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.88</priority>
+    <xhtml:link rel="alternate" hreflang="en-us" href="https://admintasks.work/#us-income"/>
+  </url>
+  <url>
+    <loc>https://admintasks.work/#us-1099</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.95</priority>
+    <xhtml:link rel="alternate" hreflang="en-us" href="https://admintasks.work/#us-1099"/>
+  </url>
+
+  <!-- Jamaica Calculators -->
+  <url>
+    <loc>https://admintasks.work/#jm-paye</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.95</priority>
+    <xhtml:link rel="alternate" hreflang="en-jm" href="https://admintasks.work/#jm-paye"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://admintasks.work/#jm-paye"/>
+  </url>
+  <url>
+    <loc>https://admintasks.work/#jm-employer</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.92</priority>
+    <xhtml:link rel="alternate" hreflang="en-jm" href="https://admintasks.work/#jm-employer"/>
+  </url>
+  <url>
+    <loc>https://admintasks.work/#jm-gct</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.92</priority>
+    <xhtml:link rel="alternate" hreflang="en-jm" href="https://admintasks.work/#jm-gct"/>
+  </url>
+  <url>
+    <loc>https://admintasks.work/#jm-netpay</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.90</priority>
+    <xhtml:link rel="alternate" hreflang="en-jm" href="https://admintasks.work/#jm-netpay"/>
+  </url>
+  <url>
+    <loc>https://admintasks.work/#jm-pdf</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.88</priority>
+    <xhtml:link rel="alternate" hreflang="en-jm" href="https://admintasks.work/#jm-pdf"/>
+  </url>
+  <url>
+    <loc>https://admintasks.work/#jm-hours</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en-jm" href="https://admintasks.work/#jm-hours"/>
+  </url>
+  <url>
+    <loc>https://admintasks.work/#jm-income</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en-jm" href="https://admintasks.work/#jm-income"/>
+  </url>
+  <url>
+    <loc>https://admintasks.work/#jm-1099</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.92</priority>
+    <xhtml:link rel="alternate" hreflang="en-jm" href="https://admintasks.work/#jm-1099"/>
+  </url>
+
+  <!-- Supporting pages -->
+  <url>
+    <loc>https://admintasks.work/privacy.html</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.30</priority>
+  </url>
+
+  <url>
+    <loc>https://admintasks.work/#us-timedec</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.88</priority>
+    <xhtml:link rel="alternate" hreflang="en-us" href="https://admintasks.work/#us-timedec"/>
+  </url>
+
+  <url>
+    <loc>https://admintasks.work/#jm-timedec</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.88</priority>
+    <xhtml:link rel="alternate" hreflang="en-jm" href="https://admintasks.work/#jm-timedec"/>
+  </url>
+
+</urlset>
