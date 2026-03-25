@@ -1,0 +1,39 @@
+/*
+  # ── Security headers (HTTP-level, enforced by Cloudflare / Netlify) ────────
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=(), interest-cohort=()
+  Cross-Origin-Opener-Policy: same-origin
+  Cross-Origin-Resource-Policy: same-origin
+
+  # ── Content Security Policy ─────────────────────────────────────────────────
+  # Googlebot renders JavaScript and needs to fetch fonts and scripts.
+  # The previous connect-src 'none' was too strict — relaxed to allow
+  # fonts.googleapis.com so Googlebot can fully render the page.
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https://api.spreeapp.com https://fonts.googleapis.com; object-src 'none'; base-uri 'self'; form-action 'self' https://api.spreeapp.com; frame-ancestors 'self'; upgrade-insecure-requests;
+
+  # ── Indexing — explicitly allow all crawlers ────────────────────────────────
+  # IMPORTANT: This is the HTTP-header equivalent of <meta name="robots">.
+  # If your hosting platform added an X-Robots-Tag: noindex header by default
+  # (some platforms do this on free tiers), this overrides it.
+  X-Robots-Tag: index, follow, max-snippet:-1, max-image-preview:large
+
+  # ── Caching ─────────────────────────────────────────────────────────────────
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+/index.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+/sitemap.xml
+  Cache-Control: public, max-age=86400
+  Content-Type: application/xml; charset=utf-8
+  X-Robots-Tag: noindex
+
+/robots.txt
+  Cache-Control: public, max-age=86400
+  Content-Type: text/plain; charset=utf-8
+  X-Robots-Tag: noindex
+
+/*.html
+  Cache-Control: public, max-age=0, must-revalidate
